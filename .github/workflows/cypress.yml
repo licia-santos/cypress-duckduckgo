@@ -2,7 +2,8 @@ name: Cypress Tests
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
 
 jobs:
@@ -23,9 +24,3 @@ jobs:
 
       - name: Executar testes Cypress
         run: npx cypress run
-
-      - name: Upload screenshots
-        uses: actions/upload-artifact@v4
-        with:
-          name: screenshots
-          path: cypress/screenshots
