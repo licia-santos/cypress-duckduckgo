@@ -1,0 +1,15 @@
+{
+  "name": "cypress-google-scholar",
+  "version": "1.0.0",
+  "description": "Projeto Cypress Google Search",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
